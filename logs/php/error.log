@@ -47,3 +47,19 @@ Stack trace:
 #9 {main}
   thrown in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-includes\class-wp-hook.php on line 308
 [17-Jun-2023 14:55:29 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\functions.php on line 14
+[25-Jun-2023 09:07:35 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 21
+[25-Jun-2023 09:07:46 UTC] PHP Parse error:  syntax error, unexpected token ")" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 21
+[25-Jun-2023 09:10:36 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 25
+[25-Jun-2023 09:10:37 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 25
+[26-Jun-2023 09:27:22 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "dog", expecting ")" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 20
+[26-Jun-2023 09:28:07 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 23
+[26-Jun-2023 09:28:17 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 23
+[26-Jun-2023 09:28:19 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 23
+[26-Jun-2023 09:28:49 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 23
+[26-Jun-2023 09:29:32 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 23
+[26-Jun-2023 09:29:36 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 23
+[26-Jun-2023 09:30:37 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 39
+[26-Jun-2023 09:31:00 UTC] PHP Parse error:  syntax error, unexpected token "echo" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 39
+[26-Jun-2023 09:31:57 UTC] PHP Warning:  Undefined array key 0 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 39
+[26-Jun-2023 09:32:05 UTC] PHP Warning:  Undefined array key 0 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 39
+[26-Jun-2023 09:32:10 UTC] PHP Warning:  Undefined array key 0 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 39
