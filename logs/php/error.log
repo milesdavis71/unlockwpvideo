@@ -63,3 +63,10 @@ Stack trace:
 [26-Jun-2023 09:31:57 UTC] PHP Warning:  Undefined array key 0 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 39
 [26-Jun-2023 09:32:05 UTC] PHP Warning:  Undefined array key 0 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 39
 [26-Jun-2023 09:32:10 UTC] PHP Warning:  Undefined array key 0 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 39
+[27-Jun-2023 08:02:37 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "condition" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php:31
+Stack trace:
+#0 C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Istvan...')
+#2 C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\index.php(17): require('C:\\Users\\Istvan...')
+#3 {main}
+  thrown in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 31
