@@ -70,3 +70,7 @@ Stack trace:
 #2 C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\index.php(17): require('C:\\Users\\Istvan...')
 #3 {main}
   thrown in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\page.php on line 31
+[02-Jul-2023 03:54:33 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 3
+[02-Jul-2023 03:56:40 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 3
+[02-Jul-2023 03:56:41 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 3
+[02-Jul-2023 06:22:02 UTC] PHP Parse error:  Unclosed '{' on line 15 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 24
