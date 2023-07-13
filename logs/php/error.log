@@ -74,3 +74,10 @@ Stack trace:
 [02-Jul-2023 03:56:40 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 3
 [02-Jul-2023 03:56:41 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 3
 [02-Jul-2023 06:22:02 UTC] PHP Parse error:  Unclosed '{' on line 15 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 24
+[03-Jul-2023 09:34:56 UTC] Cron reschedule event error for hook: wp_version_check, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[03-Jul-2023 10:03:10 UTC] PHP Parse error:  Unclosed '{' on line 15 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 20
+[03-Jul-2023 10:03:21 UTC] PHP Parse error:  Unclosed '{' on line 15 in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 19
+[03-Jul-2023 10:04:16 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\index.php on line 18
+[03-Jul-2023 15:27:55 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\single.php on line 18
+[06-Jul-2023 15:43:40 UTC] PHP Parse error:  syntax error, unexpected token "if", expecting "," or ";" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\archive.php on line 7
+[06-Jul-2023 15:46:47 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\archive.php on line 7
