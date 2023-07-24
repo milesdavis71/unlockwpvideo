@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The base configuration for WordPress
  *
@@ -21,22 +22,22 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'local' );
+define('DB_NAME', 'local');
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define('DB_USER', 'root');
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define('DB_PASSWORD', 'root');
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define('DB_HOST', 'localhost');
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define('DB_CHARSET', 'utf8');
 
 /** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+define('DB_COLLATE', '');
 
 /**#@+
  * Authentication unique keys and salts.
@@ -78,20 +79,7 @@ $table_prefix = 'wp_';
  *
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
-if ( ! defined( 'WP_DEBUG' ) ) {
-	define( 'WP_DEBUG', false );
-}
 
-define( 'WP_ENVIRONMENT_TYPE', 'local' );
-/* That's all, stop editing! Happy publishing. */
-
-/** Absolute path to the WordPress directory. */
-if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', __DIR__ . '/' );
-}
-
-/** Sets up WordPress vars and included files. */
-require_once ABSPATH . 'wp-settings.php';
 
 define('AUTH_KEY',         'MBmdXHwGYyHOoGNKSQwMACthaGZx41CQxtgmIaAPh/TyuipW83OTnh88/iIq4KYneE+3uFjZCs3BAsUZAkIoEg==');
 define('SECURE_AUTH_KEY',  'APEoyIR0f/tHKWcH2C6wxlDYa0gXU42gkrpxQjs/inkY3loDc7bhCRsxohnmqyMfS1Zl4VgIUF73ytHVcXMDTg==');
@@ -101,3 +89,19 @@ define('AUTH_SALT',        'X6i0ZypFp6aZYVFR3On61msodosCpm1GjBEVJMSiC5ZjykgAJSWl
 define('SECURE_AUTH_SALT', 'Bo+WpGVqP//FTpSLcS57lED4YXJaMp4S/JaeppaJHmbJFi7tQxw8xHw2PUDkDDX+UHPJha3MmwmieqCb56/nAQ==');
 define('LOGGED_IN_SALT',   'knQFfpFrEyOirEx+HcLKyODydm/UWVN6ari2r1QfTmUQVE+DAKbvjDMTuaORrgaoR2t7dkEAuiqW05p4H1XseA==');
 define('NONCE_SALT',       '8NKvkN7UcG2iHSfmOxR8nM09++mOK9Edmw7cwKlpA4ErwXs+P//dBB0VUra1J0GOE5fWgMRgTkW7vVMJVZv3kA==');
+
+
+if (!defined('WP_DEBUG')) {
+	define('WP_DEBUG', false);
+}
+
+define('WP_ENVIRONMENT_TYPE', 'local');
+/* That's all, stop editing! Happy publishing. */
+
+/** Absolute path to the WordPress directory. */
+if (!defined('ABSPATH')) {
+	define('ABSPATH', __DIR__ . '/');
+}
+
+/** Sets up WordPress vars and included files. */
+require_once ABSPATH . 'wp-settings.php';
