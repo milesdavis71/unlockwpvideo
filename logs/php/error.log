@@ -87,3 +87,9 @@ Stack trace:
 [23-Jul-2023 15:24:44 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\functions.php on line 22
 [23-Jul-2023 15:24:47 UTC] PHP Parse error:  syntax error, unexpected token "}" in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\functions.php on line 22
 [23-Jul-2023 15:25:03 UTC] PHP Parse error:  Unmatched '}' in C:\Users\Istvan\Local Sites\unlockwpvideo\app\public\wp-content\themes\unlock-wp-theme\functions.php on line 25
+[30-Jul-2023 05:13:50 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "has-archive", expecting ")" in C:\Users\heves\Local Sites\unlockwpvideo\app\public\wp-content\mu-plugins\university-post-types.php on line 7
+[30-Jul-2023 05:13:51 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "has-archive", expecting ")" in C:\Users\heves\Local Sites\unlockwpvideo\app\public\wp-content\mu-plugins\university-post-types.php on line 7
+[30-Jul-2023 06:04:56 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "rewrite", expecting ")" in C:\Users\heves\Local Sites\unlockwpvideo\app\public\wp-content\mu-plugins\university-post-types.php on line 6
+[30-Jul-2023 06:04:56 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "rewrite", expecting ")" in C:\Users\heves\Local Sites\unlockwpvideo\app\public\wp-content\mu-plugins\university-post-types.php on line 6
+[30-Jul-2023 06:04:56 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "rewrite", expecting ")" in C:\Users\heves\Local Sites\unlockwpvideo\app\public\wp-content\mu-plugins\university-post-types.php on line 6
+[30-Jul-2023 06:05:05 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "rewrite", expecting ")" in C:\Users\heves\Local Sites\unlockwpvideo\app\public\wp-content\mu-plugins\university-post-types.php on line 6
