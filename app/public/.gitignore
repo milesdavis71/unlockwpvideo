@@ -1,2 +1,7 @@
 node_modules
 plugins
+local-site.json
+robots.txt
+logs
+.htaccess
+backups-dup-pro

@@ -96,6 +96,7 @@ if (!defined('WP_DEBUG')) {
 }
 
 define('WP_ENVIRONMENT_TYPE', 'local');
+define( 'DUPLICATOR_AUTH_KEY', '45hBvnk3w~E@cz0z/V>TtFp@P[VjiwJoucv49H_g=rW2M?_xt|lsMmboqagllC)F' );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
