@@ -1,0 +1,152 @@
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE-LOG: 2023-08-02 07:02:14
+NOTICE: Do NOT post to public sites or forums 
+PACKAGE CREATION START
+********************************************************************************
+********************************************************************************
+VERSION:	4.5.7
+WORDPRESS:	6.2.2
+PHP INFO:	8.1.9 | SAPI: cgi-fcgi
+SERVER:		nginx/1.16.0 
+ARCHITECTURE:	64-bit 
+CLIENT KICKOFF: off 
+PHP TIME LIMIT: [7200] not allowed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+RUN TYPE:	Manual
+MEMORY STACK:	6MB
+ARCHIVE ENGINE: ZipArchive: multi-thread
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP + CHUNKING (query size limit - 131072 )
+
+TABLES: total: 14 | filtered:0 | create:14
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_users NUM ROWS: 2
+REWIND DATABASE ITERATOR
+INSERT ROWS TABLE[INDEX:0] wp_users NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:1] wp_usermeta NUM ROWS: 37
+INSERT ROWS TABLE[INDEX:2] wp_commentmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:3] wp_comments NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:4] wp_duplicator_pro_entities NUM ROWS: 5
+INSERT ROWS TABLE[INDEX:5] wp_duplicator_pro_packages NUM ROWS: 1
+INSERT ROWS TABLE[INDEX:6] wp_links NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:7] wp_options NUM ROWS: 170
+INSERT ROWS TABLE[INDEX:8] wp_postmeta NUM ROWS: 47
+INSERT ROWS TABLE[INDEX:9] wp_posts NUM ROWS: 40
+INSERT ROWS TABLE[INDEX:10] wp_term_relationships NUM ROWS: 4
+INSERT ROWS TABLE[INDEX:11] wp_term_taxonomy NUM ROWS: 2
+INSERT ROWS TABLE[INDEX:12] wp_termmeta NUM ROWS: 0
+INSERT ROWS TABLE[INDEX:13] wp_terms NUM ROWS: 2
+SQL FILE SIZE CHECK OK, SIZE: 949996
+SQL CREATED: 20230802_unlock_wp_video_5ed80c578c7a33b46445_20230802070157_database.sql
+SQL FILE SIZE: 927.73KB
+SQL FILE TIME: 2023-08-02 07:02:25
+SQL RUNTIME: 10.466 sec.
+MEMORY STACK: 6MB
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  C:/Users/heves/Local Sites/unlockwpvideo/app/public
+ARCHIVE FILE: 20230802_unlock_wp_video_5ed80c578c7a33b46445_20230802070157_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	162.39MB
+STATS:	Dirs 3,119 | Files 17,753 | Total 20,872
+SQL ADDED: 20230802_unlock_wp_video_5ed80c578c7a33b46445_20230802070157_database.sql
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  C:/Users/heves/Local Sites/unlockwpvideo/app/public
+ARCHIVE FILE: 20230802_unlock_wp_video_5ed80c578c7a33b46445_20230802070157_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	162.39MB
+STATS:	Dirs 3,119 | Files 17,753 | Total 20,872
+SQL ADDED: 20230802_unlock_wp_video_5ed80c578c7a33b46445_20230802070157_database.sql
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  C:/Users/heves/Local Sites/unlockwpvideo/app/public
+ARCHIVE FILE: 20230802_unlock_wp_video_5ed80c578c7a33b46445_20230802070157_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	162.39MB
+STATS:	Dirs 3,119 | Files 17,753 | Total 20,872
+SQL ADDED: 20230802_unlock_wp_video_5ed80c578c7a33b46445_20230802070157_database.sql
+
+********************************************************************************
+ARCHIVE Mode:ZipArchive Multi-Threaded
+********************************************************************************
+ARCHIVE DIR:  C:/Users/heves/Local Sites/unlockwpvideo/app/public
+ARCHIVE FILE: 20230802_unlock_wp_video_5ed80c578c7a33b46445_20230802070157_archive.zip
+COMPRESSION: *ON*
+FILTERS: *OFF*
+DIRS:  not set
+EXTS:  not set
+FILES:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	162.39MB
+STATS:	Dirs 3,119 | Files 17,753 | Total 20,872
+SQL ADDED: 20230802_unlock_wp_video_5ed80c578c7a33b46445_20230802070157_database.sql
+COMPRESSED SIZE: 46.8MB
+ARCHIVE RUNTIME: 1690959862.815 sec.
+MEMORY STACK: 10MB
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+STORAGE:
+********************************************************************************
+LOCAL: Default, C:/Users/heves/Local Sites/unlockwpvideo/app/public/wp-content/backups-dup-pro
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 927.73KB
+INSTALLER FILE: 113.89KB
+ARCHIVE FILE: 48.92MB 
+EXPECTED FILE/DIRECTORY COUNT: 20,872
+ACTUAL FILE/DIRECTORY COUNT: 20,872
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 138.372 sec.
+PEAK PHP MEMORY USED: 6MB
+DONE PROCESSING => 20230802_unlock_wp_video 2023-08-02 07:04:33
+
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+** LOCAL [Name: Default] [ID: -2] **
+SUCCESS: copied to default location: C:/Users/heves/Local Sites/unlockwpvideo/app/public/wp-content/backups-dup-pro
+-----------------------------------------
+STORAGE PROCESSING THREAD INITIATED
+STORAGE PROCESSING COMPLETED
+
+********************************************************************************
+********************************************************************************
+DUPLICATOR PRO PACKAGE CREATION OR MANUAL STORAGE TRANSFER END: 2023-08-02 07:04:39
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+********************************************************************************
+

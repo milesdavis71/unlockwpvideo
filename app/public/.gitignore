@@ -1,7 +1,4 @@
 node_modules
+.gitignore
+local.sql
 plugins
-local-site.json
-robots.txt
-logs
-.htaccess
-backups-dup-pro
