@@ -7,3 +7,5 @@
 2023/09/17 14:05:19 [alert] 19940#19876: could not respawn worker
 2023/09/17 16:28:00 [alert] 5036#8832: worker process 15420 exited with code C0000142
 2023/09/17 16:28:00 [alert] 5036#8832: could not respawn worker
+2023/09/19 15:07:03 [alert] 5192#3108: worker process 23416 exited with code C0000142
+2023/09/19 15:07:03 [alert] 5192#3108: could not respawn worker

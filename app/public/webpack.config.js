@@ -1,4 +1,5 @@
-const path = require("path"),
+const webpack = require("webpack"),
+    path = require("path"),
   settings = require("./settings");
 
 module.exports = {
@@ -36,5 +37,12 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        jquery: 'jquery'
+
+      })
+  ],
   mode: "development",
 };
