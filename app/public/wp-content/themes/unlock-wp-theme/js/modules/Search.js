@@ -15,7 +15,7 @@ class Search {
   events() {
     this.openButton.on("click", this.openOverlay.bind(this));
     this.closeButton.on("click", this.closeOverlay.bind(this));
-    $(document).on('keyup', this.keyPressDispatcher.bind(this));
+    $(document).on("keydown", this.keyPressDispatcher.bind(this));
   }
 
   // 3. methods (function, action...)
@@ -28,7 +28,6 @@ class Search {
     $("body").addClass("body-no-scroll");
     console.log("our open method just ran");
     this.isOverlaOpen = true;
-
   }
 
   closeOverlay() {
