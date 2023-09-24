@@ -1,15 +1,13 @@
 const webpack = require("webpack"),
-    path = require("path"),
+  path = require("path"),
   settings = require("./settings");
 
 module.exports = {
   entry: {
-    App: "c:/Users/Istvan/Local Sites/unlockwpvideo/app/public/wp-content/themes/unlock-wp-theme/js/scripts.js",
+    App: settings.themeLocation + "js/scripts.js",
   },
   output: {
-    path: path.resolve(
-      "c:/Users/Istvan/Local Sites/unlockwpvideo/app/public/wp-content/themes/unlock-wp-theme/js/"
-    ),
+    path: path.resolve(__dirname, settings.themeLocation + "js"),
     filename: "scripts-bundled.js",
   },
   module: {
@@ -38,11 +36,10 @@ module.exports = {
     ],
   },
   plugins: [
-      new webpack.ProvidePlugin({
-        $: 'jquery',
-        jquery: 'jquery'
-
-      })
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jquery: "jquery",
+    }),
   ],
   mode: "development",
 };

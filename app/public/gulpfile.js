@@ -40,18 +40,42 @@ gulp.task("scripts", function (callback) {
   });
 });
 
-function reload(done) {
-  browserSync.reload();
-  done();
-}
-devWatch = () => {
+gulp.task("watch", function () {
   browserSync.init({
-    proxy: "https://unlockwpvideo.local",
-    port: 3000,
     notify: false,
+    proxy: settings.urlToPreview,
+    ghostMode: false,
   });
-  gulp.watch("./**/*.php", reload);
-  gulp.watch("./**/*.css", reload);
-  // gulp.watch("./**/*.js", reload);
-};
-exports.watch = devWatch;
+
+  gulp.watch("./**/*.php", function () {
+    browserSync.reload();
+  });
+  gulp.watch(
+    settings.themeLocation + "css/**/*.css",
+    gulp.parallel("waitForStyles")
+  );
+  gulp.watch(
+    [
+      settings.themeLocation + "js/modules/*.js",
+      settings.themeLocation + "js/scripts.js",
+    ],
+    gulp.parallel("waitForScripts")
+  );
+});
+
+gulp.task(
+  "waitForStyles",
+  gulp.series("styles", function () {
+    return gulp
+      .src(settings.themeLocation + "style.css")
+      .pipe(browserSync.stream());
+  })
+);
+
+gulp.task(
+  "waitForScripts",
+  gulp.series("scripts", function (cb) {
+    browserSync.reload();
+    cb();
+  })
+);

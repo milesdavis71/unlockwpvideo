@@ -13,15 +13,5 @@ var googleMap = new GoogleMap();
 var search = new Search();
 // Allow new JS and CSS to load in browser without a traditional page refresh
 if (module.hot) {
-    module.hot.accept();
+  module.hot.accept();
 }
-
-// window.onload = function() {
-//     if (window.jQuery) {
-//         // jQuery is loaded
-//         alert("Yeah!");
-//     } else {
-//         // jQuery is not loaded
-//         alert("Doesn't Work");
-//     }
-// }
