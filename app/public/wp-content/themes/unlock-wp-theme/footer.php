@@ -2,7 +2,7 @@
 
     <div class="site-footer__inner container container--narrow">
         <div class="group">
-           <div class="site-footer__col-one">
+            <div class="site-footer__col-one">
                 <h1 class="school-logo-text school-logo-text--alt-color"><a href="#"><strong>Fictional</strong>
                         University</a></h1>
                 <p><a class="site-footer__link" href="#">555.555.5555</a></p>
@@ -54,13 +54,17 @@
 
     </div>
 </footer>
-<div class ="search-overlay">
+<div class="search-overlay">
     <div class="search-overlay__top">
         <div class="container">
             <i class="fa fa-search search-overlay__icon" aria-hidden="true"></i>
             <i class="fa fa-window-close search-overlay__close" aria-hidden="true"></i>
             <input type="text" class="search-term" placeholder="Mit keresel?" id="search-term">
         </div>
+    </div>
+    <div class="container">
+        <div id="search-overlay__results"></div>
+
     </div>
 </div>
 <?php wp_footer(); ?>
