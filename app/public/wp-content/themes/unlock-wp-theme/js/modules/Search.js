@@ -48,7 +48,7 @@ class Search {
     $.when(
       $.getJSON(
         universityData.root_url +
-          "/wp-jsonsadfsadf/wp/v2/posts?search=" +
+          "/wp-json/wp/v2/posts?search=" +
           this.searchField.val()
       ),
       $.getJSON(
@@ -67,7 +67,12 @@ class Search {
       : "<p>No general information matches that search.</p>"
   }
   ${combinedResults
-    .map((item) => `<li><a href="${item.link}">${item.title.rendered}</a></li>`)
+    .map(
+      (item) =>
+        `<li><a href="${item.link}">${item.title.rendered}</a>${
+          item.type == "post" ? ` by ${item.authorName} ` : ""
+        }</li>`
+    )
     .join("")}
   ${combinedResults.length ? "<ul>" : ""}
   `);
