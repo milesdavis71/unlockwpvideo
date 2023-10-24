@@ -12,7 +12,7 @@ function universityRegisterSearch()
 function universitySearchResults($data)
 {
     $mainQuery = new WP_Query(array(
-        'post_type' => array('post', 'page', 'professor', 'campus', 'event'),
+        'post_type' => array('post', 'page', 'professor', 'program', 'campus', 'event'),
         "s" => sanitize_text_field($data['term'])
     ));
 
@@ -31,7 +31,9 @@ function universitySearchResults($data)
         if (get_post_type() == 'post' or get_post_type() == 'page') {
             array_push($results['generalInfo'], array(
                 'title' => get_the_title(),
-                'permalink' => get_the_permalink()
+                'permalink' => get_the_permalink(),
+                'postType' => get_post_type(),
+                'authorName' => get_the_author()
             ));
         }
         if (get_post_type() == 'professor') {
