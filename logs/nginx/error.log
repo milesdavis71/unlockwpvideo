@@ -9,3 +9,7 @@
 2023/09/17 16:28:00 [alert] 5036#8832: could not respawn worker
 2023/09/19 15:07:03 [alert] 5192#3108: worker process 23416 exited with code C0000142
 2023/09/19 15:07:03 [alert] 5192#3108: could not respawn worker
+2023/11/01 17:14:06 [emerg] 21992#8688: bind() to 0.0.0.0:10005 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2023/11/01 17:14:07 [emerg] 5932#17968: bind() to 0.0.0.0:10005 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2023/11/01 17:14:07 [emerg] 19716#23460: bind() to 0.0.0.0:10005 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2023/11/01 17:14:08 [emerg] 16728#9704: bind() to 0.0.0.0:10005 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)

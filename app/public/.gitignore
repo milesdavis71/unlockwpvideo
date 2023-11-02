@@ -1,5 +1,4 @@
 node_modules
+.gitignore
 local.sql
 plugins
-package-lock.json
-yarn.lock

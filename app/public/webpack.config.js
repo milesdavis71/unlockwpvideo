@@ -7,7 +7,7 @@ module.exports = {
     App: settings.themeLocation + "js/scripts.js",
   },
   output: {
-    path: path.resolve(__dirname, settinggulps.themeLocation + "js"),
+    path: path.resolve(__dirname, settings.themeLocation + "js"),
     filename: "scripts-bundled.js",
   },
   module: {
