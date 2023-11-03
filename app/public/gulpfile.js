@@ -47,8 +47,9 @@ gulp.task("watch", function () {
     ghostMode: false,
   });
 
-  gulp.watch("./**/*.php", function () {
+  gulp.watch("./**/*.php", function (done) {
     browserSync.reload();
+    done();
   });
   gulp.watch(
     settings.themeLocation + "css/**/*.css",
